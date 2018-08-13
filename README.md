@@ -7,6 +7,11 @@ This project is about testing functionality of webside by using Jasmine javascri
 
 Project base on http://github.com/udacity/frontend-nanodegree-feedreader. 
 
+## How to Run Project
+1. download project from https://github.com/Jarek-Trzybinski/fend-p5-feedreader or clone from ` https://github.com/Jarek-Trzybinski/fend-p5-feedreader.git `
+2. open project folder and run index.html
+3. all test are visible in the bottom of page 
+
 
 ## Tests:
 RSS Feeds:
