@@ -60,7 +60,7 @@ $(function() {
         });
         
         it('Initial Entries', function() {
-            expect($(".entry-link").length).toBeGreaterThan(0);
+            expect($(".feed .entry").length).toBeGreaterThan(0);
         });
     });
     
@@ -80,7 +80,7 @@ $(function() {
         });
 
         it('content changes', function(done){
-            expect(firstFeedTest==secondFeedTest).toBe(false);
+            expect(firstFeedTest===secondFeedTest).toBe(false);
             done();
         });
     });
